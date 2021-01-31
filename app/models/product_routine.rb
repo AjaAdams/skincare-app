@@ -1,0 +1,2 @@
+class ProductRoutine < ApplicationRecord
+end
