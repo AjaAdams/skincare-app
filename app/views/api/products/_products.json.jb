@@ -1,0 +1,9 @@
+{
+  id: product.id,
+  product_type: product.product_type,
+  brand: product.brand,
+  name: product.name,
+  time: product.time,
+  step: product.step,
+  image: product.image
+}

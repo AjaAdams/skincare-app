@@ -1,0 +1,5 @@
+{
+  id: routine.id,
+  user_id: routine.user_id,
+  name: routine.name
+}

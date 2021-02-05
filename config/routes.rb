@@ -10,5 +10,16 @@ Rails.application.routes.draw do
     patch "/products/:id" => "products#update"
     delete "/products/:id" => "products#destroy"
 
+    get "/routines" => "routines#index"
+    post "/routines" => "routines#create"
+    get "/routines/:id" => "routines#show"
+    patch "/routines/:id" => "routines#update"
+    delete "/routines/:id" => "routines#destroy"
+
+    post "/user" => "user#create"
+    get "/user/:id" => "user#show"
+
+    post "/sessions" => "sessions#create"
+
   end
 end

@@ -1,0 +1,1 @@
+render partial: "routines.json.jb", locals: { routine: @routine }
